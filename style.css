@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0047AB;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.logo-name h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.logo-name p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #f0f0f0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+h2 {
+    color: #0047AB;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
